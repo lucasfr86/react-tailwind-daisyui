@@ -6,11 +6,9 @@ import Home from "./components/Home";
 function App() {
 	return (
 		<>
-			<div className="containe border-2 border-blue-500">
-				<Header />
-				<Home />
-				<Footer />
-			</div>
+			<Header />
+			<Home />
+			<Footer />
 		</>
 	);
 }
